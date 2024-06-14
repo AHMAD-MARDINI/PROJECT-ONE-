@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    transition: 0.7s ease;
+    -webkit-transition: 0.7s ease;
+    -moz-transition: 0.7s ease;
+    -ms-transition: 0.7s ease;
+    -o-transition: 0.7s ease;
+}
+
+:root {
+        --orange-color: #eb8700
+}
+
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-image: url(image/photo-1485470733090-0aae1788d5af.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+header {
+    width: 100%;
+    height: 40px;
+    padding: 10px 200px;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.logo {
+    font-size: 2em;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+
+.contact a {
+    color: white;
+    text-transform: capitalize;
+    font-size: 1em;
+    font-weight: 500;
+    display: inline-block;
+    padding-left: 45px;
+}
+
+.contact a:hover{
+    color: var(--orange-color);
+}
+
+.btn-started a {
+    background-color: var(--orange-color);
+    padding: 10px;
+    color: white;
+    text-transform: capitalize;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    display: inline-block;
+}
+
+.btn-started a:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+section {
+    padding: 10px 200px;
+}
+
+.main-section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-section h1 {
+    font-size: 3em;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 700;
+    padding-bottom: 10px;
+
+}
+
+.main-section p {
+    color: white;
+}
